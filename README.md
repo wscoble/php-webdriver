@@ -80,6 +80,7 @@ here:  http://code.google.com/p/selenium/downloads/list
 ##  SIMPLE EXAMPLES
 
 ### Note that all of these match the Protocol exactly
+
 *   Move to a specific spot on the screen
 
         // POST /session/:sessionId/moveto
@@ -312,7 +313,6 @@ prepend the http method for the 'POST' or 'DELETE'.
         
 ## Alerts
 
-
 *   switch to an alert
 
         $p = $this->session->switch_to_alert();
@@ -338,6 +338,6 @@ prepend the http method for the 'POST' or 'DELETE'.
 
 *   If you want to have more readable code, you can do the following
 
-        use PHPWebDriver_WebDriverBy as By;
+        use \PHPWebDriver_WebDriverBy as By;
         $iframe = self::$session->element(By::CSS_SELECTOR, "iframe");
         $element = $this->session->element(By::ID, "someId");
