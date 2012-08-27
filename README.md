@@ -338,6 +338,6 @@ prepend the http method for the 'POST' or 'DELETE'.
 
 *   If you want to have more readable code, you can do the following
 
-       use PHPWebDriver_WebDriverBy as By;
-       $iframe = self::$session->element(By::CSS_SELECTOR, "iframe");
-       $element = $this->session->element(By::ID, "someId");
+        use PHPWebDriver_WebDriverBy as By;
+        $iframe = self::$session->element(By::CSS_SELECTOR, "iframe");
+        $element = $this->session->element(By::ID, "someId");
