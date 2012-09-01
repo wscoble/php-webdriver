@@ -1,0 +1,6 @@
+{
+    "name": "wscoble/php-webdriver",
+    "include-path": [
+        "PHPWebDriver"
+    ]
+}
