@@ -1,6 +1,11 @@
 {
     "name": "wscoble/php-webdriver",
     "version": "0.1",
+    "autoload": {
+        "psr-0": {
+            "": "PHPWebDriver/"
+        }
+    },
     "include-path": [
         "PHPWebDriver"
     ]
